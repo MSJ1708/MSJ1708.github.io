@@ -1,31 +1,32 @@
 # Engineering Portfolio
 
-A lightweight, responsive single-page portfolio for Abdullah Khan Abdul. It uses static HTML, CSS and JavaScript; there is no build step, server, database, or visitor sign-in.
+A responsive, single-page portfolio for Abdullah Khan Abdul. It is intentionally simple: just HTML, CSS and JavaScript in `index.html`. No build process, database, visitor account, or paid hosting is needed.
 
 ## Publish free with GitHub Pages
 
-This repository is intended to publish at **https://msj1708.github.io/**.
+The planned public address is **https://msj1708.github.io/**.
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch **main** and folder **/(root)**, then save.
-4. Wait for GitHub Pages to finish deploying, then test https://msj1708.github.io/ on your phone.
+1. Open this repository's **Settings → Pages**.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Choose branch **main** and folder **/(root)**, then press **Save**.
+4. Wait for GitHub Pages to publish the site, then open https://msj1708.github.io/ on a phone and test the project filters and navigation.
 
-The QR card in this repository encodes that URL. Test the live site before printing the card.
+GitHub Pages can take a few minutes to publish after the first setup. Until you enable Pages and verify the page loads, the address should be treated as planned rather than confirmed live.
 
-## Portfolio contents
+## QR code
 
-The portfolio showcases selected engineering simulation, optimization and product projects, skills, the three certifications provided by the owner, an About section, and public GitHub contact links. The industrial platform that the owner wishes to keep discreet is labelled only **SIE** and is not linked to its source repository.
+`Portfolio-QR.png` is the QR image stored in this repository. It encodes `https://msj1708.github.io/` and opens the portfolio directly once the website is live. The print-ready business card image is available in the separately supplied ZIP package as `Portfolio-QR-Card.png`. Test the published address before printing or handing out cards.
 
-## QR card
+## Portfolio sections
 
-The PNG files `Portfolio-QR.png` and `Portfolio-QR-Card.png` contain the QR code and printable landscape card. To regenerate after changing the final URL:
+- Projects: SIE (short name only), Project AEGIS, manufacturing simulation, inventory optimization, production-line optimization, transport optimization, SHO Live Translation, and private R&D.
+- Certifications: Project Management, Lean Six Sigma White Belt, and Lean Manufacturing (Alison), based on details supplied by the owner.
+- Skills, About, contact, and links to public GitHub projects.
 
-```bash
-python -m pip install -r requirements-dev.txt
-python scripts/generate_qr.py --site-url https://your-live-site.example/
-```
+## Editing
+
+The complete website is in `index.html`, including its layout, styling and small amount of JavaScript used for project filters and Save as PDF.
 
 ## Privacy
 
-This is a public portfolio, not a password-protected website. Anyone who has the URL or scans the QR can see it. Hiding a repository link here does not change that repository's separate GitHub visibility.
+This is a public portfolio, not a password-protected website. Anyone with its URL or QR can view it. The SIE project is described only at a high level and has no source-code link here; its independent GitHub repository visibility must be managed separately.
